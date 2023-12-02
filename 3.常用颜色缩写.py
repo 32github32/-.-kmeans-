@@ -1,3 +1,7 @@
+plt.scatter(X[:, 0], X[:, 1], c="red", marker='o', label='see') 
+
+c = color
+
 b 蓝色
 g 绿色
 r 红色
