@@ -58,6 +58,58 @@ print(irisdata)
  [6.3 2.5 5.0 1.9]
  [6.5 3.0 5.2 2.0]]
 """
+——————————————————————————————————————————————————————————————————————
+import pandas as pd
+from sklearn.datasets import load_iris
+# 加载鸢尾花数据集
+#from sklearn import datasets    #为了导入 iris 鸢鸟花数据集
+#iris = datasets.load_iris() 
+iris = load_iris()
+
+# 将数据集转化为DataFrame格式
+df = pd.DataFrame(data=iris.data, columns=iris.feature_names)
+
+# 添加目标类别列
+df['target'] = iris.target
+# 打印前5行数据  head = 5?
+print(df.head())
+
+"""
+
+   sepal length (cm)  sepal width (cm)  ...  petal width (cm)  target
+0                5.1               3.5  ...               0.2       0
+1                4.9               3.0  ...               0.2       0
+2                4.7               3.2  ...               0.2       0
+3                4.6               3.1  ...               0.2       0
+4                5.0               3.6  ...               0.2       0
+
+[5 rows x 5 columns]
+"""
+# 数据集统计摘要
+print(df.describe())
+"""
+       sepal length (cm)  sepal width (cm)  ...  petal width (cm)      target
+count         150.000000        150.000000  ...        150.000000  150.000000
+mean            5.843333          3.057333  ...          1.199333    1.000000
+std             0.828066          0.435866  ...          0.762238    0.819232
+min             4.300000          2.000000  ...          0.100000    0.000000
+25%             5.100000          2.800000  ...          0.300000    0.000000
+50%             5.800000          3.000000  ...          1.300000    1.000000
+75%             6.400000          3.300000  ...          1.800000    2.000000
+max             7.900000          4.400000  ...          2.500000    2.000000
+
+[8 rows x 5 columns]
+"""
+
+# 数据集中各类别的样本数量
+print(df['target'].value_counts())
+"""
+0    50
+1    50
+2    50
+Name: target, dtype: int64
+"""
+————————————————————————————————————————————————————————————————————————————————————————————-
 
 
 
