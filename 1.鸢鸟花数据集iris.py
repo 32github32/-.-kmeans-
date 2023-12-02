@@ -10,3 +10,18 @@ iris = datasets.load_iris()
 #5.1 3.5  1.4 0.2 Iris-setosa    4+1行
 #150列
 
+
+
+from sklearn import datasets
+
+# 加载鸢尾花数据集
+iris = datasets.load_iris()
+
+# 获取特征数据
+X = iris.data
+
+# 获取标签数据
+y = iris.target
+
+# 打印数据集信息
+print(iris.DESCR)
