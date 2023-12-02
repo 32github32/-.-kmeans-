@@ -1,4 +1,9 @@
 # 库 → 模块  → 类
+# 数据+散点图2
+# 建模
+# 训练
+# 预测
+# 散点图2
 
 import matplotlib.pyplot as plt 
 #将matplotlib库中的pyplot模块导入，并为其指定一个简短的别名plt 
