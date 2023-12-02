@@ -1,0 +1,22 @@
+传说，传奇故事；传奇人物；（标志、徽记、硬币等物品上的）刻印文字，铭文；（图片或地图的）文字说明，图例
+
+在 Matplotlib 中，plt.legend() 函数用于显示图例，而 loc 参数用于指定图例的位置。具体来说，plt.legend(loc=2) 中的 loc=2 表示将图例放置在图的左上角。
+
+Matplotlib 中 plt.legend() 函数的 loc 参数可以取不同的值来指定图例的位置，常见的取值包括：
+
+0: 'best'，自动选择最佳位置。
+1: 'upper right'，右上角。
+2: 'upper left'，左上角。
+3: 'lower left'，左下角。
+4: 'lower right'，右下角。
+5: 'right'，右侧。
+6: 'center left'，左侧中间。
+7: 'center right'，右侧中间。
+8: 'lower center'，底部中间。
+9: 'upper center'，顶部中间。
+10: 'center'，正中间。
+因此，当你使用 plt.legend(loc=2) 时，表示你希望将图例放置在图的左上角。当然，你也可以根据需要选择其他位置来放置图例。
+
+
+
+
