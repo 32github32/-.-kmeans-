@@ -1,0 +1,11 @@
+ 使用方法：plt.xlim(xmin,xmax)
+        xmin：x 轴上的最小值
+        xmax：x 轴上的最大值
+
+使用方法：plt.xlabel(fontsize, verticalalignment, horizontalalignment, rotation, bbox)
+ 
+fontsize：数字或者（small，large，medium）
+verticalalignment：距离坐标轴的位置（top，bottom，center，baseline）
+hoizontalalignment：位置（center，right，left）
+ratation：位置（vertical，horizontal，vertical）
+bbox：添加边框
