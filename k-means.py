@@ -1,7 +1,9 @@
-import matplotlib.pyplot as plt   
-import numpy as np  
-from sklearn.cluster import KMeans
-from sklearn import datasets 
+# 库 → 模块  → 类
+
+import matplotlib.pyplot as plt         #将matplotlib库中的pyplot模块导入，并为其指定一个简短的别名plt
+import numpy as np                      #将numpy库导入，并为其指定一个简短的别名np，以便在后续的代码中更方便地调用其中的函数和方法。
+from sklearn.cluster import KMeans      # 导入sklearn.cluster模块中的KMeans类   scikit-learn库
+from sklearn import datasets             #scikit-learn库中的datasets模块
  
 iris = datasets.load_iris() 
 X = iris.data[:, :4]  # #表示我们取特征空间中的4个维度
