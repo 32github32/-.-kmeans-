@@ -1,0 +1,7 @@
+xlim()和 ylim()：设置 x，y 轴的数值显示范围
+
+ 使用方法：plt.xlim(xmin,xmax)
+        xmin：x 轴上的最小值
+        xmax：x 轴上的最大值
+
+
