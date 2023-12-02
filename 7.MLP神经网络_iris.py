@@ -12,7 +12,7 @@ from sklearn.metrics import classification_report    #下面又导入一次
 
 from sklearn import datasets    #为了导入 iris 鸢鸟花数据集
 iris = datasets.load_iris() 
-#from sklearn.datasets import load_iris  #简写
+#from sklearn.datasets import load_iris  #简写  没有用！！
 
 
 data = pd.DataFrame(data=iris.data, columns=iris.feature_names) #改成dataframe
