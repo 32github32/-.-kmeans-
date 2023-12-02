@@ -4,3 +4,5 @@
 
 程序如下： 
 ![kmeans](https://img-blog.csdn.net/20180522233137718)
+
+![Anges](https://img-blog.csdn.net/20180522233511219)
