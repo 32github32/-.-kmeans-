@@ -64,10 +64,10 @@ from sklearn.datasets import load_iris
 # 加载鸢尾花数据集
 #from sklearn import datasets    #为了导入 iris 鸢鸟花数据集
 #iris = datasets.load_iris() 
-iris = load_iris()
+data1=iris.data
 
-# 将数据集转化为DataFrame格式
-df = pd.DataFrame(data=iris.data, columns=iris.feature_names)
+df = pd.DataFrame(data1) # 将数据集转化为DataFrame格式
+# columns=iris.feature_names 表头，没有的话就没有表头
 
 # 添加目标类别列
 df['target'] = iris.target
