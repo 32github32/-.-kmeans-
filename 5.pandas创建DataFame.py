@@ -19,7 +19,7 @@ data2=[
        ['李铁',12],
        ['王飞飞',13]
        ]
-df2 = pd. DataFrame (data2,columns=['name', 'Age']) #给列命名
+df2 = pd. DataFrame (data2,columns=['name', 'Age']) #给列命名，要自创表头
 print(df2)
 """
   name  Age
