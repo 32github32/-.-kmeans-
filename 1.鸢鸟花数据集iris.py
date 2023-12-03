@@ -1,3 +1,10 @@
+"""
+from sklearn.datasets import load_iris
+iris = load_iris()
+data1=iris.data
+
+df1 = pd.DataFrame(data1) # 将数据集转化为DataFrame格式
+"""
 import matplotlib.pyplot as plt 
 #将matplotlib库中的pyplot模块导入，并为其指定一个简短的别名plt 
 import numpy as np  
