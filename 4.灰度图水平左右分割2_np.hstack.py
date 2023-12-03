@@ -1,3 +1,5 @@
+#水平 = 左右分隔
+
 import numpy as np
 from PIL import Image
 
