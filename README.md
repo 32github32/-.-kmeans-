@@ -9,6 +9,7 @@
 7.分类  
 8.聚类  
 9.
+10.ctrl + 1 是Spyder的多行注释
 
 程序如下： ![kmeans](https://img-blog.csdn.net/20180522233137718)   
 
