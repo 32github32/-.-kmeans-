@@ -1,3 +1,4 @@
 title()：添加图形内容的标题
 
 plt.title("正弦函数")
+plt.title('就诊人数分布')
