@@ -1,7 +1,7 @@
 """
 from sklearn.datasets import load_iris
-iris = load_iris()
-data1=iris.data
+iris = load_iris()  #'data': array 、 'target': array、很多参数
+data1=iris.data  # 列表里面有多个列表，只要data
 
 df1 = pd.DataFrame(data1) # 将数据集转化为DataFrame格式
 """
