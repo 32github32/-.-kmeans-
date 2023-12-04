@@ -42,6 +42,23 @@ print(df_combined)
 # 1  5  e
 # 2  6  f
 
+'''
+
+有用的代码  
+
+import pandas as pd
+df1 = pd.read_excel(r"E:\桌面\课件 (2)\pandas\hospital1.xlsx")
+df2 = pd.read_excel(r"E:\桌面\课件 (2)\pandas\hospital2.xlsx")
+df3 = pd.read_excel(r"E:\桌面\课件 (2)\pandas\hospital3.xlsx")
+df4 = pd.read_excel(r"E:\桌面\课件 (2)\pandas\hospital4.xlsx")
+
+total = pd.concat([df1,df2,df3,df3],axis = 0)
+#索引= 行
+#上下垂直连接
+
+total.to_excel (r"E:\桌面\课件 (2)\pandas\total0.xlsx",index=False)
+
+'''
 
 
 
