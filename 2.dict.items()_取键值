@@ -1,0 +1,18 @@
+# 创建一个字典
+my_dict = {'a': 1, 'b': 2, 'c': 3}
+
+# 使用items()方法获取键值对视图对象，并进行迭代
+for key, value in my_dict.items():
+    print(key, value)
+
+
+#a 1
+#b 2
+#c 3
+
+
+my_dict = {'a': 1, 'b': 2, 'c': 3}
+items_list = list(my_dict.items())
+print(items_list)
+
+#[('a', 1), ('b', 2), ('c', 3)]
