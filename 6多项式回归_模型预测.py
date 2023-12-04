@@ -2,17 +2,17 @@
 import matplotlib.pyplot as plt
 import numpy as np
 from sklearn import linear_model
-from sklearn.preprocessing import PolynomialFeatures
+from sklearn.preprocessing import PolynomialFeatures #多项式回归 = 四次方？
 from sklearn.linear_model import LinearRegression
 
-# 1.数据  （无需测试和训练）
+# 1.数据  （无需测试和训练） 注意，输入数据必须是array或者dataframe 【和多元一样】
 x = [4, 8, 12, 25, 32, 43, 58, 63, 69, 79] #list
 y = [20, 33, 50, 56, 42, 31, 33, 46, 65, 75]
 x = np.array(x).reshape(len(x), 1) # 转换为列向量  len(x) 行和 1 列
 y = np.array(y).reshape(len(y), 1)
 
 
-# 2.建模
+# 2.建模  # mylinearmodel = linear_model.LinearRegression()
 model = LinearRegression()
 poly_features = PolynomialFeatures(degree=4)# 设置2、3、4次多项式  
 # 创建多项式特征转换器，指定阶数为4  poly = 多
@@ -43,6 +43,3 @@ plt.ylabel('Y label')
 
 
 plt.show()
-
-
-
