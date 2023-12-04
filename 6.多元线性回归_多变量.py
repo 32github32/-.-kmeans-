@@ -3,10 +3,10 @@
 
 import matplotlib.pyplot as plt
 import numpy as np
-from sklearn import linear_model  #一元也是机器学习
+from sklearn import linear_model  #一元也是机器学习  but这是多元线性回归
 
 # 1.数据
-x0=[[8,2],[9,0],[11,2],[16,2],[12,0]]
+x0=[[8,2],[9,0],[11,2],[16,2],[12,0]]   #list的list算作一个变量  
 #y0=[[11],[8.5],[15],[18],[11]]  两者都可以
 y0=[11,8.5,15,18,11]
 
@@ -32,11 +32,3 @@ print(mymodel.coef_) #[[0.84529148 1.96524664]]
 print(mymodel.intercept_) #[0.87443946]
 #mymodel.intercept_ 通常用于获取线性回归模型中的截距项b？
 #在一元线性回归模型中，截距就是直线与 y 轴交点的值。
-
-
-
-
-
-
-
-
