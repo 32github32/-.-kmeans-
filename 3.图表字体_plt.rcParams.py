@@ -6,6 +6,9 @@ import matplotlib as mpl
 import matplotlib.pyplot as plt
 
 plt.rcParams["font.sans-serif"] = ["Microsoft YaHei"]
+
+#import matplotlib
+#matplotlib.rc("font",family='YouYuan')
 #使用plt.rcParams设置了字体和图表大小
 #plt.rcParams['axes.unicode_minus'] = False
 
