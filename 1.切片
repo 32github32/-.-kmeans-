@@ -1,0 +1,16 @@
+
+str ='artery'
+print (str)# artery
+print (str[0:-1])# arter
+print (str[0])# a
+print (str[2:5])# ter
+print (str[2:])# tery
+print(str*2)# arteryartery
+print (str + "TEST")# arteryTEST
+
+
+
+
+
+
+
