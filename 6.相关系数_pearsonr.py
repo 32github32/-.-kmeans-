@@ -1,9 +1,11 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+from matplotlib import pyplot as plt
+
 import statsmodels.api as sm
 from scipy.stats.stats import pearsonr
-from matplotlib import pyplot as plt
+
 
 #新增加的两行
 import matplotlib
