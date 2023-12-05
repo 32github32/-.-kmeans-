@@ -28,7 +28,7 @@ my_set = {10, 20, 30, 40}
 length = len(my_set)
 print(length)  # 输出: 4
 
-
+#刚刚恢复
 
 my_dict = {'a': 1, 'b': 2, 'c': 3}
 length = len(my_dict)
